@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectivity</title>
+    <style>
+        .h1{
+            color: aqua;
+        }
+        .arjun{
+            color: bisque;
+        }
+        /* selectivity of the selector is 10 */
+        [data-x=a]{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class=" arjun reddy kumar" data-x="a">CSS SELECTIVITY</h1>
+    <p>
+        <ul>
+            <li>universal selettor :0</li>
+            <li>element:1</li>
+            <li>class,attribute and pseudo :10</li>
+            <li>id selector:100</li>
+            <li>inline selector :1000</li>
+            <li>!important:10000</li>
+        </ul>
+    </p>
+
+</body>
+</html>
